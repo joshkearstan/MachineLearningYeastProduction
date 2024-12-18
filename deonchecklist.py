@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import ast
 import tokenize
+pip install deon
+
 
 def deon_checklist(filename):
     """
@@ -50,3 +52,4 @@ def deon_checklist(filename):
     # Implement specific checks and update the results dictionary accordingly
 
     return results
+deon -o checklist.md 
